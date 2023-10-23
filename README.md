@@ -1,3 +1,3 @@
 # PPD
 
-Repositorio para armazenar conteudos e atividades de PPD
+Repósitorio para armazenar conteúdos e atividades de PPD
