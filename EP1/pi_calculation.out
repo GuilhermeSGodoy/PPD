@@ -1,0 +1,19 @@
+Executando sequencial
+SEQ: pi with 1000000000 steps is 3.141592654 in 4.685229 seconds
+Sequencial concluído
+Executando pthreads
+PTH: pi with 1000000000 steps is 3.141592654 in 4.689749 seconds (1)
+PTH: pi with 1000000000 steps is 3.141592654 in 4.696543 seconds (2)
+PTH: pi with 1000000000 steps is 3.141592654 in 4.692944 seconds (5)
+PTH: pi with 1000000000 steps is 3.141592654 in 4.698291 seconds (10)
+PTH: pi with 1000000000 steps is 3.141592654 in 4.696694 seconds (20)
+PTH: pi with 1000000000 steps is 3.141592654 in 4.695278 seconds (40)
+Pthreads concluído
+Executando OMP
+OMP: pi with 1000000000 steps is 3.141592654 in 4.685357 seconds in 1 procs
+OMP: pi with 1000000000 steps is 3.141592654 in 4.692753 seconds in 2 procs
+OMP: pi with 1000000000 steps is 3.141592654 in 4.696211 seconds in 5 procs
+OMP: pi with 1000000000 steps is 3.141592654 in 4.696883 seconds in 10 procs
+OMP: pi with 1000000000 steps is 3.141592654 in 4.695666 seconds in 20 procs
+OMP: pi with 1000000000 steps is 3.141592654 in 4.698462 seconds in 40 procs
+OMP concluído

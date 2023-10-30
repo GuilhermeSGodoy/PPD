@@ -1,0 +1,30 @@
+Bootstrap: docker
+From: ubuntu:22.04
+
+%environment
+    export LD_LIBRARY_PATH=/usr/local/lib
+
+%post
+    apt-get update
+    apt-get install -y build-essential git
+
+    git clone https://github.com/GuilhermeSGodoy/PPD.git /opt/examples/pi-integral
+
+    cd /opt/examples/pi-integral/EP1/c-files
+
+    gcc -o /opt/examples/pi-integral/pi_seq pi_seq.c -lm
+    gcc -o /opt/examples/pi-integral/pi_pth pi_pth.c -lm
+    gcc -o /opt/examples/pi-integral/pi_omp pi_omp.c -lm -fopenmp
+
+    ls -l /opt/examples/pi-integral
+
+%runscript
+    if [ "$1" = "sequential" ]; then
+        exec /opt/examples/pi-integral/pi_seq $2
+    elif [ "$1" = "pthread" ]; then
+        exec /opt/examples/pi-integral/pi_pth $2 $3
+    elif [ "$1" = "openmp" ]; then
+        exec /opt/examples/pi-integral/pi_omp $2 $3
+    else
+        echo "Opção de execução não reconhecida."
+    fi
