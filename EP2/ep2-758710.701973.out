@@ -1,0 +1,206 @@
+*** EXECUTANDO PTHREADS ***
+Jacobi relaxation calculation: 1000 x 1000 grid with 1 threads
+Error of 50.0000000000 at iteration 0
+Error of 0.2647613091 at iteration 100
+Error of 0.1331035640 at iteration 200
+Error of 0.0887964981 at iteration 300
+Error of 0.0666010751 at iteration 400
+Error of 0.0533163293 at iteration 500
+Error of 0.0444436766 at iteration 600
+Error of 0.0381008364 at iteration 700
+Error of 0.0333554757 at iteration 800
+Error of 0.0296885564 at iteration 900
+Error of 0.0267964348 at iteration 1000
+Error of 0.0244784273 at iteration 1100
+Error of 0.0225971853 at iteration 1200
+Error of 0.0210628205 at iteration 1300
+Error of 0.0198097060 at iteration 1400
+Error of 0.0187890363 at iteration 1500
+Error of 0.0179619704 at iteration 1600
+Error of 0.0172952062 at iteration 1700
+Error of 0.0167684070 at iteration 1800
+Error of 0.0163634478 at iteration 1900
+Error of 0.0160153067 at iteration 2000
+Error of 0.0156373828 at iteration 2100
+Error of 0.0152385679 at iteration 2200
+Error of 0.0148271660 at iteration 2300
+Error of 0.0144096296 at iteration 2400
+Error of 0.0139909373 at iteration 2500
+Error of 0.0135748975 at iteration 2600
+Error of 0.0131643917 at iteration 2700
+Error of 0.0127615677 at iteration 2800
+Error of 0.0123679948 at iteration 2900
+Maximum number of iterations reached.
+
+Kernel executed in 82.196240 seconds with 3000 iterations and error of 0.0119863372 and with 1 threads
+Jacobi relaxation calculation: 1000 x 1000 grid with 2 threads
+Error of 50.0000000000 at iteration 0
+Error of 0.2647613091 at iteration 100
+Error of 0.1331035640 at iteration 200
+Error of 0.0887964981 at iteration 300
+Error of 0.0666010751 at iteration 400
+Error of 0.0533163293 at iteration 500
+Error of 0.0444436766 at iteration 600
+Error of 0.0381008364 at iteration 700
+Error of 0.0333554757 at iteration 800
+Error of 0.0296885564 at iteration 900
+Error of 0.0267964348 at iteration 1000
+Error of 0.0244784273 at iteration 1100
+Error of 0.0225971853 at iteration 1200
+Error of 0.0210628205 at iteration 1300
+Error of 0.0198097060 at iteration 1400
+Error of 0.0187890363 at iteration 1500
+Error of 0.0179619704 at iteration 1600
+Error of 0.0172952062 at iteration 1700
+Error of 0.0167684070 at iteration 1800
+Error of 0.0163634478 at iteration 1900
+Error of 0.0160153067 at iteration 2000
+Error of 0.0156373828 at iteration 2100
+Error of 0.0152385679 at iteration 2200
+Error of 0.0148271660 at iteration 2300
+Error of 0.0144096296 at iteration 2400
+Error of 0.0139909373 at iteration 2500
+Error of 0.0135748975 at iteration 2600
+Error of 0.0131643917 at iteration 2700
+Error of 0.0127615677 at iteration 2800
+Error of 0.0123679948 at iteration 2900
+Maximum number of iterations reached.
+
+Kernel executed in 78.085908 seconds with 3000 iterations and error of 0.0119863372 and with 2 threads
+Jacobi relaxation calculation: 1000 x 1000 grid with 5 threads
+Error of 50.0000000000 at iteration 0
+Error of 0.2647613091 at iteration 100
+Error of 0.1331035640 at iteration 200
+Error of 0.0887964981 at iteration 300
+Error of 0.0666010751 at iteration 400
+Error of 0.0533163293 at iteration 500
+Error of 0.0444436766 at iteration 600
+Error of 0.0381008364 at iteration 700
+Error of 0.0333554757 at iteration 800
+Error of 0.0296885564 at iteration 900
+Error of 0.0267964348 at iteration 1000
+Error of 0.0244784273 at iteration 1100
+Error of 0.0225971853 at iteration 1200
+Error of 0.0210628205 at iteration 1300
+Error of 0.0198097060 at iteration 1400
+Error of 0.0187890363 at iteration 1500
+Error of 0.0179619704 at iteration 1600
+Error of 0.0172952062 at iteration 1700
+Error of 0.0167684070 at iteration 1800
+Error of 0.0163634478 at iteration 1900
+Error of 0.0160153067 at iteration 2000
+Error of 0.0156373828 at iteration 2100
+Error of 0.0152385679 at iteration 2200
+Error of 0.0148271660 at iteration 2300
+Error of 0.0144096296 at iteration 2400
+Error of 0.0139909373 at iteration 2500
+Error of 0.0135748975 at iteration 2600
+Error of 0.0131643917 at iteration 2700
+Error of 0.0127615677 at iteration 2800
+Error of 0.0123679948 at iteration 2900
+Maximum number of iterations reached.
+
+Kernel executed in 57.744085 seconds with 3000 iterations and error of 0.0119863372 and with 5 threads
+Jacobi relaxation calculation: 1000 x 1000 grid with 10 threads
+Error of 50.0000000000 at iteration 0
+Error of 0.2647613091 at iteration 100
+Error of 0.1331035640 at iteration 200
+Error of 0.0887964981 at iteration 300
+Error of 0.0666010751 at iteration 400
+Error of 0.0533163293 at iteration 500
+Error of 0.0444436766 at iteration 600
+Error of 0.0381008364 at iteration 700
+Error of 0.0333554757 at iteration 800
+Error of 0.0296885564 at iteration 900
+Error of 0.0267964348 at iteration 1000
+Error of 0.0244784273 at iteration 1100
+Error of 0.0225971853 at iteration 1200
+Error of 0.0210628205 at iteration 1300
+Error of 0.0198097060 at iteration 1400
+Error of 0.0187890363 at iteration 1500
+Error of 0.0179619704 at iteration 1600
+Error of 0.0172952062 at iteration 1700
+Error of 0.0167684070 at iteration 1800
+Error of 0.0163634478 at iteration 1900
+Error of 0.0160153067 at iteration 2000
+Error of 0.0156373828 at iteration 2100
+Error of 0.0152385679 at iteration 2200
+Error of 0.0148271660 at iteration 2300
+Error of 0.0144096296 at iteration 2400
+Error of 0.0139909373 at iteration 2500
+Error of 0.0135748975 at iteration 2600
+Error of 0.0131643917 at iteration 2700
+Error of 0.0127615677 at iteration 2800
+Error of 0.0123679948 at iteration 2900
+Maximum number of iterations reached.
+
+Kernel executed in 40.629170 seconds with 3000 iterations and error of 0.0119863372 and with 10 threads
+Jacobi relaxation calculation: 1000 x 1000 grid with 20 threads
+Error of 50.0000000000 at iteration 0
+Error of 0.2647613091 at iteration 100
+Error of 0.1331035640 at iteration 200
+Error of 0.0887964981 at iteration 300
+Error of 0.0666010751 at iteration 400
+Error of 0.0533163293 at iteration 500
+Error of 0.0444436766 at iteration 600
+Error of 0.0381008364 at iteration 700
+Error of 0.0333554757 at iteration 800
+Error of 0.0296885564 at iteration 900
+Error of 0.0267964348 at iteration 1000
+Error of 0.0244784273 at iteration 1100
+Error of 0.0225971853 at iteration 1200
+Error of 0.0210628205 at iteration 1300
+Error of 0.0198097060 at iteration 1400
+Error of 0.0187890363 at iteration 1500
+Error of 0.0179619704 at iteration 1600
+Error of 0.0172952062 at iteration 1700
+Error of 0.0167684070 at iteration 1800
+Error of 0.0163634478 at iteration 1900
+Error of 0.0160153067 at iteration 2000
+Error of 0.0156373828 at iteration 2100
+Error of 0.0152385679 at iteration 2200
+Error of 0.0148271660 at iteration 2300
+Error of 0.0144096296 at iteration 2400
+Error of 0.0139909373 at iteration 2500
+Error of 0.0135748975 at iteration 2600
+Error of 0.0131643917 at iteration 2700
+Error of 0.0127615677 at iteration 2800
+Error of 0.0123679948 at iteration 2900
+Maximum number of iterations reached.
+
+Kernel executed in 35.623242 seconds with 3000 iterations and error of 0.0119863372 and with 20 threads
+Jacobi relaxation calculation: 1000 x 1000 grid with 40 threads
+Error of 50.0000000000 at iteration 0
+Error of 0.2647613091 at iteration 100
+Error of 0.1331035640 at iteration 200
+Error of 0.0887964981 at iteration 300
+Error of 0.0666010751 at iteration 400
+Error of 0.0533163293 at iteration 500
+Error of 0.0444436766 at iteration 600
+Error of 0.0381008364 at iteration 700
+Error of 0.0333554757 at iteration 800
+Error of 0.0296885564 at iteration 900
+Error of 0.0267964348 at iteration 1000
+Error of 0.0244784273 at iteration 1100
+Error of 0.0225971853 at iteration 1200
+Error of 0.0210628205 at iteration 1300
+Error of 0.0198097060 at iteration 1400
+Error of 0.0187890363 at iteration 1500
+Error of 0.0179619704 at iteration 1600
+Error of 0.0172952062 at iteration 1700
+Error of 0.0167684070 at iteration 1800
+Error of 0.0163634478 at iteration 1900
+Error of 0.0160153067 at iteration 2000
+Error of 0.0156373828 at iteration 2100
+Error of 0.0152385679 at iteration 2200
+Error of 0.0148271660 at iteration 2300
+Error of 0.0144096296 at iteration 2400
+Error of 0.0139909373 at iteration 2500
+Error of 0.0135748975 at iteration 2600
+Error of 0.0131643917 at iteration 2700
+Error of 0.0127615677 at iteration 2800
+Error of 0.0123679948 at iteration 2900
+Maximum number of iterations reached.
+
+Kernel executed in 36.502033 seconds with 3000 iterations and error of 0.0119863372 and with 40 threads
+*** PTHREADS CONCLUÍDO ***

@@ -1,0 +1,16 @@
+Bootstrap: docker
+From: ufscar/ubuntu_mpich:latest
+
+%help
+    Exercício Programa 2 da disciplina Programação Paralela e Distribuída (2023/2)
+
+%files
+    ./app/. /opt
+
+%post
+    echo "Compilando programas.."
+    cd /opt && make
+    cp laplace_pth /usr/bin/
+
+%runscript
+    exec $@
