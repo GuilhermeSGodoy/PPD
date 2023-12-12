@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <time.h>
 #include <sys/time.h>
-#include <mpi.h>
+#include "mpi.h"
 
 #define TOL 0.0000001
 
