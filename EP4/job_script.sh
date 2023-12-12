@@ -6,14 +6,18 @@
 #SBATCH --cpus-per-task=40
 #SBATCH --output=%x.%j.out
 #SBATCH --error=%x.%j.err
+#SBATCH -N 40 # total number of nodes
+
+# https://docs.sylabs.io/guides/3.3/user-guide/mpi.html
 
 echo "*** EXECUTANDO MPI ***"
 
-srun singularity run my_container.sif vecadd_mpi 1 1000000
-srun singularity run my_container.sif vecadd_mpi 2 1000000
-srun singularity run my_container.sif vecadd_mpi 5 1000000
-srun singularity run my_container.sif vecadd_mpi 10 1000000
-srun singularity run my_container.sif vecadd_mpi 20 1000000
-srun singularity run my_container.sif vecadd_mpi 40 1000000
+#mpirun -n $NP singularity exec my_container.sif vecadd_mpi 10000000
+mpirun -n 1 singularity exec my_container.sif vecadd_mpi 10000000
+mpirun -n 2 singularity exec my_container.sif vecadd_mpi 10000000
+#mpirun -n 5 singularity exec my_container.sif vecadd_mpi 10000000
+#mpirun -n 10 singularity exec my_container.sif vecadd_mpi 10000000
+#mpirun -n 20 singularity exec my_container.sif vecadd_mpi 10000000
+#mpirun -n 40 singularity exec my_container.sif vecadd_mpi 10000000
 
 echo "*** MPI CONCLUÍDO ***"
