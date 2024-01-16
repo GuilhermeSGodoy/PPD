@@ -1,7 +1,4 @@
 EP1/my_container.sif
 EP2/my_container.sif
 EP3/my_container.sif
-EP4/my_container.sif
-EP4/app/vecadd_mpi
-EP4/mmul_seq
-EP4/app/mmul_mpi
+EP4-old/
